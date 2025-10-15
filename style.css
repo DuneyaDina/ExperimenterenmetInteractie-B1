@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +8,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    background-image: url("my_images/background.jpg");
+    /* background-image: url("my_images/background.jpg"); */
+    background-color: #9FB698;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,12 +22,25 @@ h1 {
     color: #333;
 }
 
+button{
+    all: unset;
+    font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: green;
+    padding: 1em;
+    border-radius: 1em;
+    color: white;
+
+    
+}
+
 #webcam-container { 
     display: none; }
 
 #image-display {
     width: 90vw;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     justify-content: center;
     align-items: center;

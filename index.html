@@ -6,12 +6,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="webcam-container"></div>
-    <div id="image-display"></div>
-    <p id="prediction"></p>
+<button type="button" onclick="init()">Start</button>
+<div id="webcam-container" hidden></div>
+<div id="label-container" hidden></div>
+<div id="eye-display"></div>
+<div id="mouth-display"></div>
+<div id="prediction"></div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.2.0/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
     <script src="script.js"></script>
+
+</body>
+
 </body>
 </html>
