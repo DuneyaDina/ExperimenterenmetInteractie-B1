@@ -44,7 +44,7 @@ const randomQuote = arr => arr[Math.floor(Math.random() * arr.length)];
 
 // === INIT FUNCTIE ===
 async function init() {
-  const URL = "https://teachablemachine.withgoogle.com/models/1xWKZOAXe/"; // <-- je model map in je project
+  const URL = "https://teachablemachine.withgoogle.com/models/1xWKZOAXe/"; 
 
   labelContainer = document.getElementById("label-container");
   const webcamContainer = document.getElementById("webcam-container");
