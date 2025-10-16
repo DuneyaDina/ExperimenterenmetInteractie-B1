@@ -71,7 +71,7 @@ button{
  }
 #prediction {
     position: fixed;
-    bottom: 2em;
+    bottom: .5em;
     left: 0;
     width: 100%;
     background-color: black;
