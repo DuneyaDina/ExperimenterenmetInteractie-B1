@@ -65,3 +65,27 @@ button{
     z-index: 1000;
     padding: 10px 0;
 }
+@media only screen and (max-width: 90em) {
+ body{
+        justify-content: space-evenly;
+ }
+#prediction {
+    position: fixed;
+    bottom: 2em;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1000;
+    padding: 2em 0;
+}
+button {
+    padding: 3em;
+    border-radius: 1em;
+    color: white;
+    font-size: 1.5em;
+}
+}
